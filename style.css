@@ -1,0 +1,170 @@
+@media (min-width: 960px) {
+  /* For a screen > 960px, this CSS will be read */
+  #container {
+    width: 1200px;
+  }
+  footer {
+    width: 1200px;
+  }
+}
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  #container {
+    width: 700px;
+  }
+  footer {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  #container {
+    width: 500px;
+  }
+    footer {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  #container {
+    width: 300px;
+  }
+    footer {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 150
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif ;
+  font-weight: 100;
+  text-align: center;
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif ;
+  font-weight: 100;
+  text-align: center;
+  color: #848484;
+
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+img {
+  margin: 0 auto;
+}
+
+#logo {
+  width: 20%;
+/*  height: 150px;*/
+  /*border-radius: 50%;*/
+}
+
+/*#main_container {
+  width: 1200px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,.05);
+}*/
+
+#container {
+
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,.05);
+}
+
+footer {
+  /*width: 1200px;*/
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,.05);
+}
+
+.job_description {
+  margin: 0px 50px 0px 50px;
+  padding-bottom: 20;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  padding: 20 0 20 0;
+}
+
+.btn {
+  background: #ffcb6b;
+  background-image: -webkit-linear-gradient(top, #ffcb6b, #ffa600);
+  background-image: -moz-linear-gradient(top, #ffcb6b, #ffa600);
+  background-image: -ms-linear-gradient(top, #ffcb6b, #ffa600);
+  background-image: -o-linear-gradient(top, #ffcb6b, #ffa600);
+  background-image: linear-gradient(to bottom, #ffcb6b, #ffa600);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px 50px 20px 50px;
+  text-decoration: none;
+  width: 200px;
+  margin: auto;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.social_media {
+  display: flex;
+/*  width: 1200px;*/
+  background-color: #ffffff;
+  padding: 20 0 0 0;
+  /*margin-top: 20px;*/
+  /*justify-content: center;*/
+}
+
+.item_media {
+  font-family: 'Montserrat', sans-serif;
+  color: #848484;
+  margin: auto;
+}
+
+.fa-facebook {
+  color: #4267B2;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-linkedin {
+  color: #0077B6;
+}
+
